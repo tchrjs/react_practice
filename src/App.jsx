@@ -1,6 +1,8 @@
+import Footer from "./components/footer";
 import Header from "./components/header";
 import NavBar from "./components/navbar";
 import ProductItem from "./components/product-item";
+import Services from "./components/services";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
             </div>
           </div>
         </section>
+        <Services />
+        <Footer />
       </main>
     </>
   );
