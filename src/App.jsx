@@ -1,6 +1,7 @@
 import Footer from "./components/footer";
 import Header from "./components/header";
 import NavBar from "./components/navbar";
+import PreFooter from "./components/pre-footer";
 import ProductItem from "./components/product-item";
 import Services from "./components/services";
 
@@ -23,9 +24,10 @@ function App() {
             </div>
           </div>
         </section>
-        <Services />
-        <Footer />
       </main>
+      <Services />
+      <PreFooter />
+      <Footer />
     </>
   );
 }
